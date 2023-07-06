@@ -21,7 +21,7 @@
     "build:bar": "nx build --project bar",
     "build:baz": "nx build --project baz",
     "release": "npm run build && nx run-many -t publish",
-    "bump-versions": "$VERSION=VERSION npm run bump-version:bar && $VERSION=VERSION npm run bump-version:baz && $VERSION=VERSION npm run bump-version:foo && $VERSION=VERSION npm run bump-version:root",
+    "bump-versions": "VERSION=$VERSION npm run bump-version:bar && VERSION=$VERSION npm run bump-version:baz && VERSION=$VERSION npm run bump-version:foo && VERSION=$VERSION npm run bump-version:root",
     "bump-version:root": "rjp package.json version $VERSION",
     "bump-version:bar": "rjp libs/bar/package.json version $VERSION",
     "bump-version:baz": "rjp libs/baz/package.json version $VERSION",
