@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve --project monoleasa-is-single"
+    "start": "nx serve --project monoleasa-is-single",
+    "test": "nx run-many --target=test",
+    "test:foo": "nx test --project foo",
+    "test:bar": "nx test --project bar",
+    "test:baz": "nx test --project baz"
   },
   "private": true,
   "dependencies": {

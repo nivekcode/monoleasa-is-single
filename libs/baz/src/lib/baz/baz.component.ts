@@ -5,7 +5,9 @@ import { CommonModule } from '@angular/common';
   selector: 'monoleasa-is-single-baz',
   standalone: true,
   imports: [CommonModule],
-  template: `<p>baz works!</p>`,
+  template: `<p>{{ title }}</p>`,
   styles: [],
 })
-export class BazComponent {}
+export class BazComponent {
+  title = 'baz works!';
+}

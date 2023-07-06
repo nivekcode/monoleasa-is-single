@@ -8,9 +8,11 @@ import {BazComponent} from "@kreuzerk/monoleasa-is-single-baz";
   standalone: true,
   imports: [CommonModule, BazComponent],
   template: `
-    <p>bar works!</p>
+    <p>{{ title }}</p>
     <monoleasa-is-single-baz/>
   `,
   styles: [],
 })
-export class BarComponent {}
+export class BarComponent {
+  title = 'bar works!';
+}

@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {Component} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
 import {BazComponent} from "@kreuzerk/monoleasa-is-single-baz";
 
@@ -8,9 +8,11 @@ import {BazComponent} from "@kreuzerk/monoleasa-is-single-baz";
   standalone: true,
   imports: [CommonModule, BazComponent],
   template: `
-    <p>foo works!</p>
+    <p>{{ title }}</p>
     <monoleasa-is-single-baz/>
   `,
   styles: [],
 })
-export class FooComponent {}
+export class FooComponent {
+  title = 'foo works!';
+}

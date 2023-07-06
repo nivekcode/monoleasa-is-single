@@ -18,4 +18,8 @@ describe('BarComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have a title "bar works"', () => {
+    expect(component.title).toBe('bar works!');
+  });
 });
