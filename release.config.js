@@ -39,8 +39,7 @@ module.exports = {
           `CHANGELOG.md`
         ],
         message:
-          `chore(release): ${libName}` +
-          '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+          'chore(release): -v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
