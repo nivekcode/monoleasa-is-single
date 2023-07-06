@@ -10,11 +10,11 @@ jobs:
       - uses: nrwl/nx-set-shas@v3
       - name: Install deps
         run: npm ci
-      - name: Lint affected
+      - name: Lint
         run: npx nx run-many -t lint
-      - name: Test affected
+      - name: Test
         run: npx nx run-many -t test --configuration=ci
-      - name: Build affected
+      - name: Build
         run: npx nx run-many -t build
       - name: Release
         run: npx nx run-many -t release
