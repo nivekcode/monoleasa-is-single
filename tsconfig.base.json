@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kreuzerk/monoleasa-is-single-bar": ["libs/bar/src/index.ts"],
+      "@kreuzerk/monoleasa-is-single-baz": ["libs/baz/src/index.ts"],
+      "@kreuzerk/monoleasa-is-single-foo": ["libs/foo/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
