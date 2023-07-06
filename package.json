@@ -4,7 +4,13 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve --project monoleasa-is-single",
-    "test": "nx run-many --target=test",
+    "lint": "nx run-many -t lint",
+    "lint:affected": "nx affected -t lint",
+    "lint:foo": "nx lint --project foo",
+    "lint:bar": "nx lint --project bar",
+    "lint:baz": "nx lint --project baz",
+    "test": "nx run-many -t test",
+    "test:affected": "nx affected -t test",
     "test:foo": "nx test --project foo",
     "test:bar": "nx test --project bar",
     "test:baz": "nx test --project baz"
