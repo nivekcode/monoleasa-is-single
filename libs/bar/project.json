@@ -46,8 +46,7 @@
     "update-version": {
       "executor": "nx-release:update-version",
       "options": {
-        "libName": "bar",
-        "version": "$VERSION"
+        "libName": "bar"
       }
     },
     "publish": {
