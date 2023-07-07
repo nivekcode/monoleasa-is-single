@@ -1,3 +1,15 @@
+## [1.5.0](https://github.com/kreuzerk/monoleasa-is-single/compare/v1.4.0...v1.5.0) (2023-07-07)
+
+
+### Features
+
+* 🎸 improve foo ([4de2053](https://github.com/kreuzerk/monoleasa-is-single/commit/4de2053d5a5b07f8d35bb031c7256f5509367c02))
+
+
+### Chores
+
+* 🤖 update nx-release ([6a9c238](https://github.com/kreuzerk/monoleasa-is-single/commit/6a9c23833ef741feca0d5c6c4b9ac6bd57158527))
+
 ## [1.4.0](https://github.com/kreuzerk/monoleasa-is-single/compare/v1.3.0...v1.4.0) (2023-07-07)
 
 
