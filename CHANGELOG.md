@@ -1,3 +1,16 @@
+## [1.1.0](https://github.com/kreuzerk/monoleasa-is-single/compare/v1.0.0...v1.1.0) (2023-07-07)
+
+
+### Features
+
+* 🎸 improve bar ([13ac18d](https://github.com/kreuzerk/monoleasa-is-single/commit/13ac18ddc91508a7fed55781d0c9f9f8e393c36e))
+
+
+### Chores
+
+* 🤖 add missing run command ([7c07fb1](https://github.com/kreuzerk/monoleasa-is-single/commit/7c07fb1db1dc43007879abbc55a711fa55df8b89))
+* 🤖 use nx-release ([ee45786](https://github.com/kreuzerk/monoleasa-is-single/commit/ee45786b1d773badd55136140e9ab7f95f5ddd53))
+
 ## 1.0.0 (2023-07-06)
 
 
