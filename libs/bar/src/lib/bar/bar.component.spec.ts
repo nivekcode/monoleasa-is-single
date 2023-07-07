@@ -19,7 +19,7 @@ describe('BarComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have a title "bar works"', () => {
-    expect(component.title).toBe('bar works!');
+  it('should have a title "bar really works"', () => {
+    expect(component.title).toBe('bar really works!');
   });
 });
