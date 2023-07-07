@@ -19,7 +19,7 @@ describe('FooComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have a title "foo really works"', () => {
-    expect(component.title).toBe('foo really works!');
+  it('should have a title "foo works"', () => {
+    expect(component.title).toBe('foo works!');
   });
 });

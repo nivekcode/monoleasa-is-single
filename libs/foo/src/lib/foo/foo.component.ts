@@ -14,5 +14,5 @@ import {BazComponent} from "@kreuzerk/monoleasa-is-single-baz";
   styles: [],
 })
 export class FooComponent {
-  title = 'foo really works!';
+  title = 'foo works!';
 }
