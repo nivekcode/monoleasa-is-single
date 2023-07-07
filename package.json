@@ -21,7 +21,7 @@
     "build:bar": "nx build --project bar",
     "build:baz": "nx build --project baz",
     "release": "VERSION=$VERSION npm run update-versions && npm run build && nx run-many -t publish",
-    "update-versions": "VERSION=$VERSION nx run-many -t update-version && rjp package.json version $VERSION"
+    "bump-version:root": "rjp package.json version $VERSION"
   },
   "private": true,
   "dependencies": {
@@ -77,7 +77,7 @@
     "ng-packagr": "~16.1.0",
     "nx": "16.5.0",
     "nx-cloud": "latest",
-    "nx-release": "^2.0.0",
+    "nx-release": "^2.1.0",
     "postcss": "^8.4.5",
     "postcss-import": "~14.1.0",
     "postcss-preset-env": "~7.5.0",

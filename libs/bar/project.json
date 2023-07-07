@@ -43,14 +43,8 @@
         "lintFilePatterns": ["libs/bar/**/*.ts", "libs/bar/**/*.html"]
       }
     },
-    "update-version": {
-      "executor": "nx-release:update-version",
-      "options": {
-        "libName": "bar"
-      }
-    },
-    "publish": {
-      "executor": "nx-release:npm-publish",
+    "release": {
+      "executor": "nx-release:build-update-publish",
       "options": {
         "libName": "bar"
       }

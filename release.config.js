@@ -24,7 +24,7 @@ module.exports = {
       },
     ],
     ["@semantic-release/exec", {
-      prepareCmd: `VERSION=\${nextRelease.version} npm run release`,
+      prepareCmd: `VERSION=\${nextRelease.version} npx nx run-many -t release && VERSION=\${nextRelease.version} npm run bump-version:root`,
     }],
     [
       '@semantic-release/git',

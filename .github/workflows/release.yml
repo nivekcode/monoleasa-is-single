@@ -10,6 +10,10 @@ jobs:
       - uses: nrwl/nx-set-shas@v3
       - name: Install deps
         run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Test
+        run: npm run test
       - name: Release
         run: npx semantic-release
         env:

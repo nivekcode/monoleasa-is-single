@@ -43,15 +43,8 @@
         "lintFilePatterns": ["libs/foo/**/*.ts", "libs/foo/**/*.html"]
       }
     },
-    "update-version": {
-      "executor": "nx-release:update-version",
-      "options": {
-        "libName": "foo",
-        "version": "$VERSION"
-      }
-    },
-    "publish": {
-      "executor": "nx-release:npm-publish",
+    "release": {
+      "executor": "nx-release:build-update-publish",
       "options": {
         "libName": "foo"
       }

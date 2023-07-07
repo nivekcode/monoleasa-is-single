@@ -43,15 +43,8 @@
         "lintFilePatterns": ["libs/baz/**/*.ts", "libs/baz/**/*.html"]
       }
     },
-    "update-version": {
-      "executor": "nx-release:update-version",
-      "options": {
-        "libName": "baz",
-        "version": "$VERSION"
-      }
-    },
-    "publish": {
-      "executor": "nx-release:npm-publish",
+    "release": {
+      "executor": "nx-release:build-update-publish",
       "options": {
         "libName": "baz"
       }
