@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/kreuzerk/monoleasa-is-single/compare/v1.3.0...v1.4.0) (2023-07-07)
+
+
+### Features
+
+* 🎸 improve bar ([9fdf597](https://github.com/kreuzerk/monoleasa-is-single/commit/9fdf597a4d07aec8f4d27bf0fdf06d5b2bdb4a68))
+
 ## [1.1.0](https://github.com/kreuzerk/monoleasa-is-single/compare/v1.0.0...v1.1.0) (2023-07-07)
 
 
