@@ -46,14 +46,14 @@
     "update-version": {
       "executor": "nx-release:update-version",
       "options": {
-        "libName": "bar",
+        "libName": "foo",
         "version": "$VERSION"
       }
     },
     "publish": {
       "executor": "nx-release:npm-publish",
       "options": {
-        "libName": "bar"
+        "libName": "foo"
       }
     }
   }
