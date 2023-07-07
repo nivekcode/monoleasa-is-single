@@ -43,10 +43,17 @@
         "lintFilePatterns": ["libs/foo/**/*.ts", "libs/foo/**/*.html"]
       }
     },
-    "publish": {
-      "executor": "nx:run-commands",
+    "update-version": {
+      "executor": "nx-release:update-version",
       "options": {
-        "command": "cd ./dist/libs/foo && echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc && npm publish"
+        "libName": "bar",
+        "version": "$VERSION"
+      }
+    },
+    "publish": {
+      "executor": "nx-release:npm-publish",
+      "options": {
+        "libName": "bar"
       }
     }
   }
