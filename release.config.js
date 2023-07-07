@@ -30,9 +30,7 @@ module.exports = {
       '@semantic-release/git',
       {
         assets: [
-          `libs/foo/package.json`,
-          `libs/bar/package.json`,
-          `libs/baz/package.json`,
+          `libs/**/package.json`,
           `package.json`,
           `CHANGELOG.md`
         ],

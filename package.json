@@ -77,7 +77,7 @@
     "ng-packagr": "~16.1.0",
     "nx": "16.5.0",
     "nx-cloud": "latest",
-    "nx-release": "^1.0.0",
+    "nx-release": "^1.0.1",
     "postcss": "^8.4.5",
     "postcss-import": "~14.1.0",
     "postcss-preset-env": "~7.5.0",
